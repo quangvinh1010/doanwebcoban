@@ -1,0 +1,293 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    height: 100%;
+    width: 90%;
+    margin: 0 auto;
+}
+.header {
+    background-image: url('../images/banner.PNG');
+    background-repeat: no-repeat;
+    background-size: 100% 200px;
+    height: 200px;
+    width: 100%;
+}
+.menu{
+    display: flex;
+    height: auto;
+    width: 100%;
+    background: #fff;
+    border-bottom: 1px solid #000
+}
+.menu .logo{
+    width: 20%;
+    height: auto;
+    text-align: center;
+    border-right: 1px solid #000;
+}
+.menu .logo img{
+    width: 70px;
+    height: 70px;
+}
+.menu ul{
+    display: flex;
+    padding: 0;
+    /* margin: 0; */
+    width: 65%;
+    /* line-height: 60px; */
+    align-items: center;
+    list-style: none;
+    margin: 0 auto;
+    border-right: 1px solid #000;
+}
+.menu ul li{
+    margin: 5px;
+    padding: 3px;
+    font-size: 18px;
+}
+.menu ul li>a{
+    text-decoration: none;
+    color: #000;
+    padding: 10px;
+}
+.menu ul li>a:hover{
+    background-color: #000;
+    color: #fff;
+}
+.menu .icon{
+    display: flex;
+    padding: 0;
+    width: 15%;
+    align-items: center;
+    margin: 0 auto;
+}
+.menu .icon a{
+    font-size: 25px;
+    color: #000;
+    text-decoration: none;
+}
+.menu .icon a>i{
+    padding: 15px;
+}
+.menu .icon a>i:hover{
+    background-color: #000;
+    color: #fff;
+}
+.menu .icon a>p{
+    padding: 15px;
+    font-size: 15px;
+}
+.menu .icon a>p:hover{
+    background-color: #000;
+    color: #fff;
+}
+#main{
+    height: auto;
+    width: 100%;
+    display: flex;
+    padding-bottom: 20px;
+    justify-content: center;
+    border-bottom: 1px solid #000;
+}
+#main .main-content{
+    height: auto;
+    width: auto;
+}
+#main .main-content ul{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    width: 100%;
+    list-style: none;
+    margin: 0 auto;
+}
+#main .main-content ul li{
+    margin: 7px;
+    padding: 3px;
+    width: 18.5%;
+    height: auto;
+    background: #f2f2f2;
+}
+#main .main-content ul li a{
+    text-decoration: none;
+    text-align: center;
+    color: #000;
+    font-weight: 600;
+}
+#main .main-content ul li a img{
+    width: 100%;
+}
+.list_thanhtoan{
+    width: 1200px;
+    height: auto;
+    font-size: 20px;
+}
+.tt {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+}
+.nav_tt { 
+    width: auto;
+    border-bottom: 2px ;
+}
+.chitiet{
+    display: flex;
+    justify-content: center;
+}
+.chitiet .anh{
+    width: 30%;
+}
+.chitiet .anh img{
+    width: 100%;
+}
+.chitietsp{
+    width: auto;
+    font-size: 20px;
+    margin-left: 15px;
+}
+.themgiohang{
+    width: 80%;
+    height: 45px;
+    background: #d83a3a;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1em;
+    color: #fff;
+    font-weight: 500;
+}
+.text{
+    text-decoration: none;
+    color: #000;
+}
+.text:hover{
+    color: #be0000;
+}
+.wraper {
+    position: relative;
+    width: 400px;
+    height: auto;
+    background: transparent;
+    border: 2px solid rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    backdrop-Filter: blur(20px);
+    box-shadow: rgba(0, 0, 0, 0.5);
+    display: flex;
+    Justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    transition: transform .5s ease , height .2s esse;
+    margin-inline: auto;
+    margin: 30px;
+    /* transform: scale(0); */
+}
+.wraper .form-box{
+    width: 100%;
+    padding: 40px;
+}
+.form-box h2{
+    font-size: 2em;
+    color: #2b0d13;
+    text-align: center;
+}
+.input-box{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    border-bottom: 2px solid #000000;
+    margin: 30px 0;
+}
+.input-box label{
+    position: absolute;
+    top: 50px;
+    left: 5px;
+    transform: translateY(-50px);
+    font-size: 1em;
+    color: #000000;
+    font-weight: 500;
+    pointer-events: none;
+    transform: .5s;
+}
+.input-box input:focus~label,
+.input-box input:valid~label{
+    top: 40px;
+    transform: .5s;
+}
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    padding: 0 35px 0 5px;
+}
+.input-box .icon{
+    position: absolute;
+    right: 5px;
+    font-size: 1.2em;
+    color: #000000;
+    line-height: 57px;
+}
+.forgot{
+    font-size: .9em;
+    color: #000000;
+    font-weight: 500;
+    margin: -15px 0 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.forgot label input{
+    accent-color: #000000;
+    margin-right: 3px;
+}
+.forgot a{
+    color: #000000;
+    text-decoration: none;
+    font-weight: 600;
+}
+.forgot a:hover {
+    text-decoration: underline;
+    color: #740000;
+}
+.btn{
+    width: 100%;
+    height: 45px;
+    background: #bb0707;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1em;
+    color: #fff;
+    font-weight: 500;
+}
+.login-register{
+    font-size: .9em;
+    color: #000000;
+    text-align: center;
+    font-weight: 500;
+    margin: 25px 0 10px;
+}
+.login-register p a{
+    color: #000000;
+    text-decoration: none;
+    font-weight: 600;
+}
+.login-register p a:hover {
+    text-decoration: underline;
+    color: #740000;
+}
+.footer{
+    height: 150px;
+    width: 100%;
+}

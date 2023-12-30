@@ -1,0 +1,16 @@
+.lienhe{
+    width: 100%; 
+    position: relative;
+}
+
+.tt{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+}
+.list_lienhe{
+    width: 70%;
+    height: auto;
+    position: absolute;
+    left: 15%;
+}
